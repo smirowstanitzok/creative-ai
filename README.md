@@ -33,7 +33,7 @@ set RUNPOD_API_KEY="dein_api_schlüssel_hier"
 3. Starte das Hauptskript:
 
 ```bash
-python deployer.py
+python main.py
 ```
 
 4. Wähle das gewünschte Produktions-Profil (z. B. Fotorealismus, Radio-Jingles oder Text-Chat) aus dem interaktiven Menü. 
