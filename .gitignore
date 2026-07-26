@@ -1,0 +1,11 @@
+# Python-interne Dateien ignorieren
+__pycache__/
+*.pyc
+
+# Betriebssystem-Dateien ignorieren
+.DS_Store
+Thumbs.db
+
+# Optionale lokale Konfigurationsdateien ignorieren
+.env
+config.private.json
