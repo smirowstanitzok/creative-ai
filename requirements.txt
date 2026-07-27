@@ -1,1 +1,5 @@
-runpod>=1.0.0
+# Nur der HTTP-Client: das Skript spricht die Runpod-REST-API v1 direkt an.
+# Das offizielle 'runpod'-SDK wird nicht mehr benötigt - dessen Pod-Funktionen
+# laufen intern über den abgekündigten GraphQL-Endpunkt und unterstützen nur
+# eine einzelne GPU-Typ-ID statt der serverseitigen Fallback-Liste.
+requests>=2.32,<3
